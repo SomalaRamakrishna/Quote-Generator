@@ -4,7 +4,8 @@
   "description": "to integrate and to get quotate",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.jsx ",
+    "start": "node server.js ",
+    "dev":"node server.js",
     "both": "concurrently \"npm start\" \"cd.. && cd frontend && npm run dev\""
   },
   "author": "Ramakrishna",
