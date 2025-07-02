@@ -55,5 +55,4 @@ npm start
 
 Thankyou..!
 
-![Screenshot (411)](https://github.com/user-attachments/assets/0055cca8-ab58-4114-986a-0946f7b3718a)
 
