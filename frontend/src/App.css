@@ -1,0 +1,76 @@
+/* Fullscreen black background */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+/* Center container */
+.mood-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* Card box */
+.mood-box {
+    background-color: #eeeaea;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+/* Title */
+.mood-title {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+/* Input field */
+.mood-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+}
+
+.mood-input::placeholder {
+    color: #aaa;
+}
+
+/* Button */
+.mood-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.mood-button:hover {
+    background-color: #e4e4e4;
+}
+
+/* Quote display */
+.mood-quote {
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 1rem;
+    color: #ddd;
+}
